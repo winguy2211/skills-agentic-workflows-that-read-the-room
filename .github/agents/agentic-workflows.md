@@ -73,6 +73,8 @@ When you interact with this agent, it will:
 2. **Route to the right prompt** - Load the specialized prompt file for your task
 3. **Execute the task** - Follow the detailed instructions in the loaded prompt
 
+When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file; do not generate or modify lock files.
+
 ## Available Prompts
 
 > **Note**: The prompt and reference files below are from [`github/gh-aw`](https://github.com/github/gh-aw). Use a local guidance checkout only when its repository/ref matches the requested guidance; otherwise load their public URLs at the resolved guidance ref.
