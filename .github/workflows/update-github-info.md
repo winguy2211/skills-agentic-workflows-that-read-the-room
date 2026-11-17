@@ -17,6 +17,7 @@ network:
     - github
     - github.blog
     - github.com
+    - awesome-copilot.github.com
 tools:
   edit:
   web-fetch:
@@ -41,14 +42,16 @@ Read `notes/mona-notes.md` first and use it as the editorial guidance for any ch
 Then:
 1. Use the webfetch tool to read `https://github.blog/latest/`.
 2. Use the webfetch tool to read `https://github.blog/changelog/`.
-3. Summarize the most relevant GitHub updates for developers in a short, practical way.
-4. Update `site/content/github-info.md` with the relevant official references and product updates.
-5. Keep the content brief, clear, and aligned with Mona's notes.
-6. Open a pull request with the proposed changes for Mona to review before merging.
+3. Use the webfetch tool to read `https://awesome-copilot.github.com/workflows/`.
+4. Summarize the most relevant GitHub updates and Awesome Copilot workflows for developers in a short, practical way.
+5. Update `site/content/github-info.md` with relevant references from the GitHub Blog, GitHub Changelog, and Awesome Copilot workflows.
+6. Keep the content brief, clear, and aligned with Mona's notes.
+7. Open a pull request with the proposed changes for Mona to review before merging.
 
 Requirements:
 - Keep the update concise and useful, and prefer actionable guidance for developers.
 - Mention the source whenever a point comes from the GitHub Blog or GitHub Changelog.
+- Cite Awesome Copilot workflows when recommending a workflow from that source.
 - Do not write directly to `main`; use the safe-output `create-pull-request` flow.
 - Do not add unrelated files or changes.
 - If no relevant updates justify a change, keep the page stable and explain the reason in the PR description.
